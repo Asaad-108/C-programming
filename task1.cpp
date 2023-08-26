@@ -8,9 +8,9 @@
 using namespace std;
 int main()
 {
-    int a = 60000;
-    int b;
-    int c;
+    int a = 60000; // "a" is the salary per month
+    int b;    //b,c & d are the variables to store the contribution
+    int c;    //for retirement.
     int d;
     cout<<"the total pay is 60000 per month"<<endl;
     b=a/100*5;
@@ -19,10 +19,6 @@ int main()
     cout<<"if you contribute 7% of your gross pay is :"<<c<<endl;
     d=a/100*10;
     cout<<"if you contribute 10% of your gross pay is :"<<d<<endl;
-
-
-
-
 
     return 0;
 }
