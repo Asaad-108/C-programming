@@ -1,4 +1,5 @@
 // Selection statement , And operator
+// assigning grade according to marks
 #include <iostream>
 using namespace std;
 int main()

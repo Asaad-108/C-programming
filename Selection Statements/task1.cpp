@@ -1,4 +1,5 @@
 // Selection statement in C++
+// checking a number is valid or not
 #include <iostream>
 using namespace std;
 int main()
