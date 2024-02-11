@@ -10,16 +10,15 @@
 using namespace std;
 int main()
 {
-    int d;
+    int diameter;
     int slices;
-    double a;
     int persons;
     cout << "enter number of presons:" << endl;
     cin >> persons;
     slices = persons * 4;
     cout << "the number of slices they eat is: " << slices << endl;
-    d = sqrt(slices * (14.125 * 4) / 3.14);
-    cout << "the size of pizza for " << persons << " persons is " << d <<" inches"<< endl;
+    diameter = sqrt(slices * (14.125 * 4) / 3.14);
+    cout << "the size of pizza for " << persons << " persons is " << diameter <<" inches"<< endl;
 
     return 0;
 }
