@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    cout << "English alphabets in lowercase" << endl;
+    cout << "English alphabets in lowercase (a to z)" << endl;
     for (char i = 'a'; i <= 'z'; i++)
     {
         cout << i << endl;
